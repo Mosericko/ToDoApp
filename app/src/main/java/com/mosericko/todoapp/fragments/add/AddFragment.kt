@@ -62,16 +62,6 @@ class AddFragment : Fragment() {
 
     }
 
-    /*  override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-          inflater.inflate(R.menu.add_fragment_menu, menu)
-      }*/
-
-    /*  override fun onOptionsItemSelected(item: MenuItem): Boolean {
-          if (item.itemId == R.id.addTask) {
-              insertDataToDB()
-          }
-          return super.onOptionsItemSelected(item)
-      }*/
 
     private fun insertDataToDB() {
         val titleStr = title.text.toString().trim()

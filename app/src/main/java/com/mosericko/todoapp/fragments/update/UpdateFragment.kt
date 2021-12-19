@@ -37,6 +37,12 @@ class UpdateFragment : Fragment() {
         binding.description.setText(args.currentItem.description)
         binding.spinner.setSelection(sharedViewModel.parsePriorityLevel(args.currentItem.priority))
         binding.spinner.onItemSelectedListener = sharedViewModel.adapterListener
+
+
+        binding.save.setOnClickListener {
+            updateItem()
+        }
+
         return binding.root
     }
 
@@ -47,7 +53,6 @@ class UpdateFragment : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.save -> updateItem()
             R.id.delete -> confirmAction()
         }
         return super.onOptionsItemSelected(item)
