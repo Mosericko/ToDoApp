@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:hint="@string/title"
-            android:textColorHint="@color/green1">
+            android:textColorHint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/title"
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/pt_sans_bold"
                 android:text="Priority Level"
-                android:textColor="@color/green1" />
+                android:textColor="@color/black" />
 
             <Spinner
                 android:id="@+id/spinner"
@@ -63,7 +63,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:hint="@string/desc"
-            android:textColorHint="@color/green1">
+            android:textColorHint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/description"
