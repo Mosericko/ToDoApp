@@ -11,7 +11,7 @@ import com.mosericko.todoapp.R
 import com.mosericko.todoapp.data.models.Priority
 
 class SharedViewModel(application: Application) : AndroidViewModel(application) {
-
+//shared view model class acts as a class for all functions that can be shared across the whole application
 
     val adapterListener: AdapterView.OnItemSelectedListener =
         object : AdapterView.OnItemSelectedListener {
